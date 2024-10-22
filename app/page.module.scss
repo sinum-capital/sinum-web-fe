@@ -1,6 +1,6 @@
-$test-sass: rgb(69, 112, 221);
 .page {
-    border: 2px solid $test-sass;
+    background-color: var(--set1color4);
+    border: 2px solid rgb(69, 112, 221);
     padding: 20px 10px;
 }
   

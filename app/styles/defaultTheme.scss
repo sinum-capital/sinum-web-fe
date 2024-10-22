@@ -1,0 +1,43 @@
+// Colors
+$oil-black_color: #0c0c0c;
+$charleston-black_color: #121212;
+$arsenic-grey_color: #434343;
+$granite-gray_color: #606060;
+$grey_color: #7f7f7f;
+$dark-silver_color: #6f6f6f;
+$philippine-gray_color: #8f8f8f;
+$white_color: #fff;
+$gainsboro_color: #dedede;
+$philippine-silver_color: #b5b5b5;
+$rusty-red_color: #d62839;
+$water_color: #cce6f4;
+$blue-magenta-violet_color: #5000ff;
+$blue-cola_color: #0288d1;
+$black_color: #000;
+$deep-blue_color: #00003a;
+$green_color: #29bf12;
+$gradient_color: radial-gradient(
+  227.61% 84.01% at 12.5% 18.06%,
+  rgb(2, 136, 209) 1.5535956248641014%,
+  rgb(80, 0, 255) 100%
+);
+// Fonts
+$font-family: "Inter", sans-serif;
+$second-family: "Instrument Sans", sans-serif;
+$third-family: "Roboto", sans-serif;
+$font3: "Font Awesome 6 Free", sans-serif;
+$font4: "Inclusive Sans", sans-serif;
+$font5: "Manrope", sans-serif;
+/* @mixin buttonDesign($type, $backGroundColor) {
+  @if $type = "Primary" {
+    background: $backGroundColor;
+    color: $white_color;
+    @if $backGroundColor = $blue-cola {
+      color: black;
+    }
+  }
+  background-color: $oil_black_color;
+  border: 2px solid var($backGroundColor);
+  border-radius: 12px;
+}
+ */
