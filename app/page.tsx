@@ -19,6 +19,8 @@ export default function Home() {
             disabled={false}
           />
           <CustomButton
+          colorSet="c1"
+          disabled={false}
           borderRadius="r1"
             text="Custom Button"
           />
