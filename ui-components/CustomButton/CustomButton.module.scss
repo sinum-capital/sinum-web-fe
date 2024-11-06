@@ -38,8 +38,12 @@
         left: 0;
         right: 0;
         bottom: 0;
-        background: white;
+        background: var(--button4-color);
         z-index: -1;
+    }
+
+    &:not([disabled]):hover::after {
+        background: var(--button4-hover-color);
     }
 }
 

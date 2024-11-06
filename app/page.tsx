@@ -11,23 +11,23 @@ export default function Home() {
         Main. Test components here Buttons:
         <div>
           <CustomButton
-          borderRadius="r3"
-          gradientBorder="b1"
+            borderRadius="r3"
+            gradientBorder="b1"
             text="Custom Button"
             imageProps={{ height: 10, width: 10, iconSrc: icon }}
             onClick={() => console.log("Button clicked!")}
-            className="my-custom-style"
             disabled={false}
           />
           <CustomButton
-          colorSet="c1"
-          disabled={false}
-          borderRadius="r1"
+            colorSet="c12"
+            disabled={false}
+            borderRadius="r1"
             text="Custom Button"
           />
-          <CustomButton 
+          <CustomButton
+            colorSet="c7"
             imageProps={{ height: 10, width: 10, iconSrc: icon }}
-            />
+          />
         </div>
       </main>
       <footer className={styles.footer}>Footer</footer>
