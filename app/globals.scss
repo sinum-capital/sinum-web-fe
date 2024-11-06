@@ -123,3 +123,11 @@
   --button19-hover-color: #{$button19-hover-color};
   --button19-pressed-color: #{$button19-pressed-color};
 }
+
+.theme-green {
+    @import "./styles/greenTheme.scss";
+    --button1-color: #{$button1-color};
+    --button1-disabled-color: #{$button1-disabled-color};
+    --button1-hover-color: #{$button1-hover-color};
+    --button1-pressed-color: #{$button1-pressed-color};
+  }

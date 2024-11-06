@@ -3,6 +3,7 @@ import { CustomButton } from "@/ui-components/CustomButton";
 import styles from "./page.module.scss";
 import icon from "@/images/backArrowWhite.svg";
 
+// className={`theme-green ${styles.page}`} - so we use green theme for app
 export default function Home() {
   return (
     <div className={styles.page}>
