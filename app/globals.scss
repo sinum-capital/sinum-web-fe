@@ -122,12 +122,22 @@
   --button19-disabled-color: #{$button19-disabled-color};
   --button19-hover-color: #{$button19-hover-color};
   --button19-pressed-color: #{$button19-pressed-color};
+
+  // text colors
+  --text-color1: #{$textColor1};
+  --text-color2: #{$textColor2};
+  --text-color3: #{$textColor3};
+  --text-color4: #{$textColor4};
+  --text-color5: #{$textColor5};
+  --text-color6: #{$textColor6};
+  --text-color7: #{$textColor7};
+  --text-color8: #{$textColor8};
 }
 
 .theme-green {
-    @import "./styles/greenTheme.scss";
-    --button1-color: #{$button1-color};
-    --button1-disabled-color: #{$button1-disabled-color};
-    --button1-hover-color: #{$button1-hover-color};
-    --button1-pressed-color: #{$button1-pressed-color};
-  }
+  @import "./styles/greenTheme.scss";
+  --button1-color: #{$button1-color};
+  --button1-disabled-color: #{$button1-disabled-color};
+  --button1-hover-color: #{$button1-hover-color};
+  --button1-pressed-color: #{$button1-pressed-color};
+}

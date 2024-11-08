@@ -14,6 +14,12 @@ export default function Home() {
             borderRadius="r3"
             gradientBorder="b1"
             text="Custom Button"
+            textStyle={{
+              fontWeight: 600,
+              fontSize: "12px",
+              lineHeight: "14.46px",
+              colorSet: "clr3"
+            }}
             imageProps={{ height: 10, width: 10, iconSrc: icon }}
             onClick={() => console.log("Button clicked!")}
             disabled={false}
@@ -23,6 +29,12 @@ export default function Home() {
             disabled={false}
             borderRadius="r1"
             text="Custom Button"
+            textStyle={{
+              fontWeight: 600,
+              fontSize: "12px",
+              lineHeight: "14.46px",
+              colorSet: "clr2"
+            }}
           />
           <CustomButton
             colorSet="c7"
