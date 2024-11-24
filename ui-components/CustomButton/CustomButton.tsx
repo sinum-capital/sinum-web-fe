@@ -15,6 +15,10 @@ import React, { useState } from "react";
 //clr7 - ffffff, ffffff, #1F1F21, ffffff
 //clr8 - #FFFFFF, #E2DFDF, #FFFFFF, FFFFFF
 
+//brdC1 - #8491A5
+//brdC2 - #343434
+//brdC3 - #A3A1A1
+
 interface CustomButtonProps {
   text?: string;
   onClick?: () => void;
@@ -29,6 +33,8 @@ interface CustomButtonProps {
     height: number;
   };
   borderRadius?: "r1" | "r2" | "r3";
+  borderWdt?: number,
+  borderClr?: "brdC1" | "brdC2" | "brdC3"
   gradientBorder?: "b1";
   colorSet?:
     | "c1"
@@ -64,6 +70,9 @@ interface CustomButtonProps {
       | "clr7"
       | "clr8";
   };
+  imgFirst?: boolean;
+  hPdg?: number;
+  vPdg?: number;
 }
 
 export const CustomButton: React.FC<CustomButtonProps> = ({
@@ -77,6 +86,11 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
   gradientBorder,
   colorSet = "c1",
   textStyle,
+  imgFirst = true,
+  hPdg = 139,
+  vPdg = 15,
+  borderWdt = 0,
+  borderClr = "brdC1"
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [isPressed, setIsPressed] = useState(false);
@@ -104,7 +118,7 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
       style={wrapperStyle}
     >
       <button
-        style={buttonColorStyles}
+        style={{'padding': ` ${vPdg}px ${hPdg}px`, 'borderWidth': ` ${borderWdt}px`, ...buttonColorStyles}}
         onClick={onClick}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => {
@@ -114,11 +128,11 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
         onMouseDown={() => setIsPressed(true)}
         onMouseUp={() => setIsPressed(false)}
         disabled={disabled}
-        className={`${styles["custom-button"]} ${
+        className={`${styles["custom-button"]} ${styles[borderClr]} ${
           borderRadius ? styles[borderRadius] : ""
         } ${gradientBorder ? styles[gradientBorder] : ""}`}
       >
-        {imageProps && (
+        {imageProps && imgFirst && (
           <Image
             src={imageProps.iconSrc}
             alt={imageProps.icopAlt || "sinum-image"}
@@ -135,10 +149,20 @@ export const CustomButton: React.FC<CustomButtonProps> = ({
               fontSize: textStyle?.fontSize,
               lineHeight: textStyle?.lineHeight,
             }}
-            className={styles[textStyle?.colorSet || "clr1"]}
+            className={`${styles.textDefaultStyles} ${styles[textStyle?.colorSet || "clr1"]}`}
           >
             {text}
           </p>
+        )}
+        {imageProps && !imgFirst && (
+          <Image
+            src={imageProps.iconSrc}
+            alt={imageProps.icopAlt || "sinum-image"}
+            width={imageProps.width}
+            height={imageProps.height}
+            className={styles["button-icon"]}
+            style={imageProps.imageStyles || {}}
+          />
         )}
       </button>
     </div>

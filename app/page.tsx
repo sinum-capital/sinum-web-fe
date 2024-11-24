@@ -23,6 +23,7 @@ export default function Home() {
             imageProps={{ height: 10, width: 10, iconSrc: icon }}
             onClick={() => console.log("Button clicked!")}
             disabled={false}
+            // imgFirst={false}
           />
           <CustomButton
             colorSet="c12"
@@ -35,6 +36,8 @@ export default function Home() {
               lineHeight: "14.46px",
               colorSet: "clr2"
             }}
+            borderClr="brdC1"
+            borderWdt={1}
           />
           <CustomButton
             colorSet="c7"
