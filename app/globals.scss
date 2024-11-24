@@ -1,12 +1,149 @@
-@import './styles/defaultTheme.scss';
+@import "./styles/defaultTheme.scss";
 
-:root{
-    --set1color1: #{$oil-black_color};
-    --set1color2: #{$charleston-black_color};
-    --set1color3: #{$arsenic-grey_color};
-    --set1color4: #{$granite-gray_color};
-    --set1color5: #{$grey_color};
+:root {
+  --set1color1: #{$oil-black_color};
+  --set1color2: #{$charleston-black_color};
+  --set1color3: #{$arsenic-grey_color};
+  --set1color4: #{$granite-gray_color};
+  --set1color5: #{$grey_color};
+  --border-gradient1: #{$border-gradient1};
+  --border-gradient2: #{$border-gradient2};
 
-    
+  // button1
+  --button1-color: #{$button1-color};
+  --button1-disabled-color: #{$button1-disabled-color};
+  --button1-hover-color: #{$button1-hover-color};
+  --button1-pressed-color: #{$button1-pressed-color};
+
+  // button2
+  --button2-color: #{$button2-color};
+  --button2-disabled-color: #{$button2-disabled-color};
+  --button2-hover-color: #{$button2-hover-color};
+  --button2-pressed-color: #{$button2-pressed-color};
+
+  // button3
+  --button3-color: #{$button3-color};
+  --button3-disabled-color: #{$button3-disabled-color};
+  --button3-hover-color: #{$button3-hover-color};
+  --button3-pressed-color: #{$button3-pressed-color};
+
+  // button4
+  --button4-color: #{$button4-color};
+  --button4-disabled-color: #{$button4-disabled-color};
+  --button4-hover-color: #{$button4-hover-color};
+  --button4-pressed-color: #{$button4-pressed-color};
+
+  // button5
+  --button5-color: #{$button5-color};
+  --button5-disabled-color: #{$button5-disabled-color};
+  --button5-hover-color: #{$button5-hover-color};
+  --button5-pressed-color: #{$button5-pressed-color};
+
+  // button6
+  --button6-color: #{$button6-color};
+  --button6-disabled-color: #{$button6-disabled-color};
+  --button6-hover-color: #{$button6-hover-color};
+  --button6-pressed-color: #{$button6-pressed-color};
+
+  // button7
+  --button7-color: #{$button7-color};
+  --button7-disabled-color: #{$button7-disabled-color};
+  --button7-hover-color: #{$button7-hover-color};
+  --button7-pressed-color: #{$button7-pressed-color};
+
+  // button8
+  --button8-color: #{$button8-color};
+  --button8-disabled-color: #{$button8-disabled-color};
+  --button8-hover-color: #{$button8-hover-color};
+  --button8-pressed-color: #{$button8-pressed-color};
+
+  // button9
+  --button9-color: #{$button9-color};
+  --button9-disabled-color: #{$button9-disabled-color};
+  --button9-hover-color: #{$button9-hover-color};
+  --button9-pressed-color: #{$button9-pressed-color};
+
+  // button10
+  --button10-color: #{$button10-color};
+  --button10-disabled-color: #{$button10-disabled-color};
+  --button10-hover-color: #{$button10-hover-color};
+  --button10-pressed-color: #{$button10-pressed-color};
+
+  // button11
+  --button11-color: #{$button11-color};
+  --button11-disabled-color: #{$button11-disabled-color};
+  --button11-hover-color: #{$button11-hover-color};
+  --button11-pressed-color: #{$button11-pressed-color};
+
+  // button12
+  --button12-color1: #{$button12-color1};
+  --button12-color2: #{$button12-color2};
+  --button12-d-h-p-color1: #{$button12-d-h-p-color1};
+  --button12-d-h-p-color2: #{$button12-d-h-p-color2};
+
+  // button13
+  --button13-color: #{$button13-color};
+  --button13-disabled-color: #{$button13-disabled-color};
+  --button13-hover-color: #{$button13-hover-color};
+  --button13-pressed-color: #{$button13-pressed-color};
+
+  // button14
+  --button14-color: #{$button14-color};
+  --button14-disabled-color: #{$button14-disabled-color};
+  --button14-hover-color: #{$button14-hover-color};
+  --button14-pressed-color: #{$button14-pressed-color};
+
+  // button15
+  --button15-color: #{$button15-color};
+  --button15-disabled-color: #{$button15-disabled-color};
+  --button15-hover-color: #{$button15-hover-color};
+  --button15-pressed-color: #{$button15-pressed-color};
+
+  // button16
+  --button16-color: #{$button16-color};
+  --button16-disabled-color: #{$button16-disabled-color};
+  --button16-hover-color: #{$button16-hover-color};
+  --button16-pressed-color: #{$button16-pressed-color};
+
+  // button16
+  --button17-color: #{$button17-color};
+  --button17-disabled-color: #{$button17-disabled-color};
+  --button17-hover-color: #{$button17-hover-color};
+  --button17-pressed-color: #{$button17-pressed-color};
+
+  // button18
+  --button18-color: #{$button18-color};
+  --button18-disabled-color: #{$button18-disabled-color};
+  --button18-hover-color: #{$button18-hover-color};
+  --button18-pressed-color: #{$button18-pressed-color};
+
+  // button19
+  --button19-color: #{$button19-color};
+  --button19-disabled-color: #{$button19-disabled-color};
+  --button19-hover-color: #{$button19-hover-color};
+  --button19-pressed-color: #{$button19-pressed-color};
+
+  // text colors
+  --text-color1: #{$textColor1};
+  --text-color2: #{$textColor2};
+  --text-color3: #{$textColor3};
+  --text-color4: #{$textColor4};
+  --text-color5: #{$textColor5};
+  --text-color6: #{$textColor6};
+  --text-color7: #{$textColor7};
+  --text-color8: #{$textColor8};
+
+  // border colors
+  --border-color1: #{brdC1};
+  --border-color2: #{brdC2};
+  --border-color3: #{brdC3};
+
 }
 
+.theme-green {
+  @import "./styles/greenTheme.scss";
+  --button1-color: #{$button1-color};
+  --button1-disabled-color: #{$button1-disabled-color};
+  --button1-hover-color: #{$button1-hover-color};
+  --button1-pressed-color: #{$button1-pressed-color};
+}

@@ -1,0 +1,273 @@
+.button-wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+
+.textDefaultStyles {
+  margin: 0;
+  padding: 0;
+}
+
+.custom-button {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  position: relative;
+  background: white;
+  z-index: 1;
+  &:not(.b1) {
+    border: none;
+  }
+}
+
+.b1 {
+  &::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background: linear-gradient(
+      to left,
+      var(--border-gradient2),
+      var(--border-gradient1)
+    );
+    z-index: -1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--button4-color);
+    z-index: -1;
+  }
+
+  &:not([disabled]):hover::after {
+    background: var(--button4-hover-color);
+  }
+}
+
+.button-icon {
+  margin-right: 8px;
+  margin-left: 8px;
+}
+
+// Стилі для радіусів звичайної кнопки
+.custom-button:not(.b1) {
+  &.r1 {
+    border-radius: 8px;
+  }
+
+  &.r2 {
+    border-radius: 12px;
+  }
+
+  &.r3 {
+    border-radius: 30px;
+  }
+}
+
+// Стилі для радіусів кнопки з градієнтом
+.b1 {
+  &.r1 {
+    &::before {
+      border-radius: 10px;
+    }
+    &.custom-button {
+      border-radius: 8px;
+    }
+    &::after {
+      border-radius: 8px;
+    }
+  }
+
+  &.r2 {
+    &::before {
+      border-radius: 14px;
+    }
+    &.custom-button {
+      border-radius: 12px;
+    }
+    &::after {
+      border-radius: 12px;
+    }
+  }
+
+  &.r3 {
+    &::before {
+      border-radius: 32px;
+    }
+    &.custom-button {
+      border-radius: 30px;
+    }
+    &::after {
+      border-radius: 30px;
+    }
+  }
+}
+
+// text colors set
+.clr1 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr1 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):hover .clr1 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):active .clr1 {
+    color: var(--text-color1);
+  }
+}
+.clr2 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr2 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):hover .clr2 {
+    color: var(--text-color2);
+  }
+
+  &:not(:disabled):active .clr2 {
+    color: var(--text-color1);
+  }
+}
+
+.clr3 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr3 {
+    color: var(--text-color3);
+  }
+
+  &:not(:disabled):hover .clr3 {
+    color: var(--text-color4);
+  }
+
+  &:not(:disabled):active .clr3 {
+    color: var(--text-color4);
+  }
+}
+
+.clr4 {
+  color: var(--text-color5);
+}
+
+.custom-button {
+  &:disabled .clr4 {
+    color: var(--text-color5);
+  }
+
+  &:not(:disabled):hover .clr4 {
+    color: var(--text-color5);
+  }
+
+  &:not(:disabled):active .clr4 {
+    color: var(--text-color5);
+  }
+}
+
+.clr5 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr5 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):hover .clr5 {
+    color: var(--text-color6);
+  }
+
+  &:not(:disabled):active .clr5 {
+    color: var(--text-color1);
+  }
+}
+
+.clr6 {
+  color: var(--text-color7);
+}
+
+.custom-button {
+  &:disabled .clr6 {
+    color: var(--text-color7);
+  }
+
+  &:not(:disabled):hover .clr6 {
+    color: var(--text-color6);
+  }
+
+  &:not(:disabled):active .clr6 {
+    color: var(--text-color7);
+  }
+}
+
+.clr7 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr7 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):hover .clr7 {
+    color: var(--text-color6);
+  }
+
+  &:not(:disabled):active .clr7 {
+    color: var(--text-color1);
+  }
+}
+
+.clr8 {
+  color: var(--text-color1);
+}
+
+.custom-button {
+  &:disabled .clr8 {
+    color: var(--text-color8);
+  }
+
+  &:not(:disabled):hover .clr8 {
+    color: var(--text-color1);
+  }
+
+  &:not(:disabled):active .clr8 {
+    color: var(--text-color1);
+  }
+}
+
+// border colors
+.button-wrapper .brdC1{
+  border-style: solid;
+  border-color: var(--border-color1);
+}
+.button-wrapper .brdC2{
+  border-style: solid;
+  border-color: var(--border-color2);
+}
+.button-wrapper .brdC3{
+  border-style: solid;
+  border-color: var(--border-color3);
+}
