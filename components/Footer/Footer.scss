@@ -1,0 +1,33 @@
+.footer{
+  height: 136px;
+  width: 100vw;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(34, 34, 34, 0) 0%, #000000 82.2%);
+}
+
+.container{
+  width: 76vw;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+
+  &__copyright{
+    color: #CCE6F4;
+    font-size: small;
+  }
+}
+
+.content{
+  &__link{
+    width: 24px;
+    height: 24px;
+  }
+  &__btn{
+    text-decoration: none;
+    color: #CCE6F4;
+  }
+}
+
+

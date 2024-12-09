@@ -1,0 +1,37 @@
+.wrapper{
+  height: 760px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  width: 546px;
+  height: 330px;
+  margin-right: 500px;
+  &__info{
+    color: #FFFFFF;
+    font-size: 72px;
+
+    &-purple{
+      color: #5A41EF;
+    }
+  }
+  &__subinfo{
+    color: #AFAEAE;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  &__btn{
+    width: 232px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #1976D2;
+    margin-top: 30px;
+    &-item{
+      color: #FFFFFF;
+      font-size: 26px;
+    }
+  }
+}
