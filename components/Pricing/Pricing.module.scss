@@ -1,0 +1,77 @@
+.PricingWrapper{
+  width: 100vw;
+  height: 951px;
+  display: flex;
+  justify-content: center;
+  margin-top: 142px;
+}
+
+.Pricing{
+  width: 1161px;
+  height: 951px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__button{
+    width: 122px;
+    height: 42px;
+    border-radius: 30px;
+    background-color: #141414;
+    color: #BEBEBE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 54.9px;
+    color: #FFFFFF;
+    margin-top: 25px;
+  }
+  &__info{
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 39px;
+  }
+}
+
+.cards{
+  width: 1119px;
+  height: 565px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 72px;
+  &__side{
+    width: 347px;
+    height: 513px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #0F0F0F;
+    border-radius: 16px;
+    border: 1px solid #242323 ;
+  }
+  &__middle{
+    width: 347px;
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    background-color: #0F0F0F;
+    border-radius: 16px;
+    border: 1px solid #6343E8;
+    box-shadow:  0 10px 40px #383737;
+  
+  }
+}

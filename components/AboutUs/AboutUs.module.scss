@@ -1,0 +1,48 @@
+.PolygonAU{
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 994px;
+}
+.AboutUs{
+  width: 1160px;
+  height: 994px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__button {
+    width: 122px;
+    height: 42px;
+    background-color: #141414;
+    color: #BEBEBE;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  &__title{
+    width: 1160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 25px;
+  }
+  &__info{
+    width: 1160px;
+    height: 128px;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: center;
+    margin-top: 40px;
+  }
+  &__img{
+    width: 1019px;
+    height: 669px;
+    margin-top: 36px;
+  }
+}

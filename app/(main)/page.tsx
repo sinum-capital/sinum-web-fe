@@ -1,15 +1,18 @@
 import styles from "./page.module.scss";
 import HeaderComponent from "@/components/Header/HeaderComponent";
 import FooterComponent from "@/components/Footer/FooterComponent"
-import MainComponent from "@/components/Main/MainComponent"
-import FeaturesComponent from "@/components/Features/FeaturesComponent"
+import AboutUsComponent from "@/components/AboutUs/AboutUsComponent"
+import PricingComponent from "@/components/Pricing/PricingComponent"
+import ComparisonComponent from "@/components/Comparison/ComparisonComponent"
+import OverviewComponent from "@/components/Overview/OverviewComponent"
 export default function Home() {
   return (
       <div>
-          <HeaderComponent/>
-          <div className={styles.main}><MainComponent/></div>
-          <div className={styles.features}><FeaturesComponent/></div>
-          <div></div>
+          <div><HeaderComponent/></div>
+          <div><AboutUsComponent/></div>
+          <div><PricingComponent/></div>
+          <div><ComparisonComponent/></div>
+          <div><OverviewComponent/></div>
           <div className={styles.footer}><FooterComponent/></div>
       </div>
   );

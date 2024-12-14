@@ -1,0 +1,90 @@
+.header{
+  &__inner{
+    display: flex;
+    align-items: center;
+    height: 112.5px;
+  }
+}
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  &__logo{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 600;
+    width: 8vw;
+    line-height: 30.8px;
+    margin-left: 20px;
+  }
+  &__list{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 140px;
+    &_DashButton{
+      width: 126px;
+      height: 34px;
+      background-color: #2C2A31;
+      color: #FFFFFF;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: background-color 0.2s ease;
+
+      &:hover{
+        background-color:#5000FF
+      }
+    }
+    &_FButton{
+      width: 98px;
+      height: 34px;
+      background-color: #2C2A31;
+      color: #FFFFFF;
+      border-radius: 8px;
+      font-size:14px ;
+      transition: background-color 0.2s ease;
+
+      &:hover{
+        background-color:#5000FF
+      }
+    }
+    &_FAQButton{
+      width: 66px;
+      height: 34px;
+      background-color: #2C2A31;
+      color: #FFFFFF;
+      border-radius: 8px;
+      font-size:14px ;
+      transition: background-color 0.2s ease;
+
+      &:hover{
+        background-color:#5000FF
+      }
+    }
+  }
+  &__reg{
+    width: 206px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    &_in{
+      width: 98px;
+      height: 31px;
+      background-color: #010101;
+      color: #FFFFFF;
+      border-radius: 8px;
+      border: 1px solid #868686;
+    }
+    &_up{
+      width: 98px;
+      height: 31px;
+      background-color: #FFFFFF;
+      color: #000000;
+      border-radius: 8px;
+    }
+  }
+}

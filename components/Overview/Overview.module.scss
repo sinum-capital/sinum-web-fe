@@ -1,0 +1,85 @@
+.OverviewWrapper{
+  width: 100vw;
+  height: 729px;
+  display: flex;
+  justify-content: center;
+}
+
+.Overview{
+  width: 1145px;
+  height: 729px;
+
+  &__title{
+    width: 600px;
+    height: 136px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    color: #FFFFFF;
+    &_purple{
+      color: #6343E8;
+    }
+  }
+
+  &__examples{
+    width: 1145px;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+
+    &_info{
+      width: 473px;
+      height: 550px;
+      display: flex;
+      flex-direction: column;
+
+      &_item{
+        width: 473px;
+        height: 135px;
+        background-color: #0B0B0E;
+      }
+
+      &_button{
+        width: 473px;
+        height: 52px;
+        background-color: #FFFFFF;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 22px;
+        letter-spacing: 0.4px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+      }
+    }
+
+    &_image{
+      width: 634px;
+      height: 550px;
+    }
+  }
+}
+
+.item__title{
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.item__info{
+  font-size: 13px;
+  font-weight: 200;
+  line-height: 22px;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #FFFFFF;
+}
