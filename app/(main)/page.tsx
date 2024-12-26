@@ -5,10 +5,12 @@ import AboutUsComponent from "@/components/AboutUs/AboutUsComponent"
 import PricingComponent from "@/components/Pricing/PricingComponent"
 import ComparisonComponent from "@/components/Comparison/ComparisonComponent"
 import OverviewComponent from "@/components/Overview/OverviewComponent"
+import HeroComponent from "@/components/Pohuiyaknazvu/HeroComponent"
 export default function Home() {
   return (
       <div>
           <div><HeaderComponent/></div>
+          <div><HeroComponent/></div>
           <div><AboutUsComponent/></div>
           <div><PricingComponent/></div>
           <div><ComparisonComponent/></div>

@@ -18,6 +18,9 @@
     border-radius: 30px;
     font-size: 15px;
     font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   &__title{
     width: 1160px;

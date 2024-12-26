@@ -4,7 +4,7 @@ const AboutUsComponent = () => {
     return (
         <div className={styles.PolygonAU}>
             <div className={styles.AboutUs}>
-                <button className={styles.AboutUs__button}>ABOUT</button>
+                <div className={styles.AboutUs__button}>ABOUT</div>
                 <div className={styles.AboutUs__title}>About Us</div>
                 <div className={styles.AboutUs__info}>
                     We are Sinum Capital, an innovative fintech startup

@@ -7,7 +7,7 @@ const HeaderComponent = () => {
         <header className={styles.header}>
             <div className={styles.header__inner}>
                 <div className={styles.menu}>
-                    <a className={styles.menu__logo} href={"#"}>SINUM</a>
+                    <div className={styles.menu__logo}>SINUM</div>
                     <div className={styles.menu__list}>
                         <button className={styles.menu__list_DashButton}>DASHBOARD</button>
                         <button className={styles.menu__list_FButton}>Features</button>

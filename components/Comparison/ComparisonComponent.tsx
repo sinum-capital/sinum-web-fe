@@ -5,7 +5,7 @@ const ComparisonComponent = () => {
     return (
         <div className={styles.ComparisonWrapper}>
             <div className={styles.Comparison}>
-                <button className={styles.Comparison__button}>Compare plans</button>
+                <div className={styles.Comparison__button}>Compare plans</div>
                 <div className={styles.Comparison__title}>Compare our plans and find the right one for you</div>
                 <div className={styles.Comparison__info}>StreamVibe offers three different plans to fit your needs: Basic, Standard, and Premium. Compare the features of each plan and choose the one that's right for you.</div>
                 <div className={styles.Comparison__table}>

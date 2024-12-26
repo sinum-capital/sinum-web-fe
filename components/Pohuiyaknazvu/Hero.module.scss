@@ -1,0 +1,182 @@
+.HeroWrapper{
+  width: 100vw;
+  height: 685px;
+  display: flex;
+  justify-content: center;
+  margin-top: 72px;
+}
+
+.hero{
+  width: 1359px;
+  height: 685px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    width: 720px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+  }
+
+  &__candles{
+    width: 700px;
+    height: 420px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__button{
+      width: 241px;
+      height: 66px;
+      background-color: #6343E8;
+      border-radius: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: none;
+  }
+}
+
+.first{
+  width: 40px;
+  height: 65px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF
+  }
+}
+
+.second{
+  width: 40px;
+  height: 65px;
+  background-color: #5F5F5F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #5F5F5F
+  }
+}
+
+.S{
+  width: 40px;
+  height: 121px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF;
+  }
+}
+
+.I{
+  width: 40px;
+  height: 65px;
+  background-color: #8B8B8B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #8B8B8B;
+  }
+}
+
+.N{
+  width: 40px;
+  height: 85px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF;
+  }
+}
+
+.U{
+  width: 40px;
+  height: 65px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF;
+  }
+}
+
+.M{
+  width: 40px;
+  height: 121px;
+  background-color: #8B8B8B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #8B8B8B;
+  }
+}
+
+
+.eighth{
+  width: 40px;
+  height: 10px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF
+  }
+}
+
+.ninth{
+  width: 40px;
+  height: 65px;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 42px;
+
+  &__value{
+    height: 171px;
+    border: 1px solid #FFFFFF
+  }
+}
+

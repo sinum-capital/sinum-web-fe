@@ -5,7 +5,7 @@ const PricingComponent = () => {
     return (
         <div className={styles.PricingWrapper}>
             <div className={styles.Pricing}>
-                <button className={styles.Pricing__button}>PRICING</button>
+                <div className={styles.Pricing__button}>PRICING</div>
                 <div className={styles.Pricing__title}>Pricing and plans</div>
                 <div className={styles.Pricing__info}>
                     No matter where you are on your journey, we have a plan that’s just right for you.
