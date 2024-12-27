@@ -1,0 +1,61 @@
+@use "../../assets/styles/vars" as vars;
+
+%headerBtn {
+  padding: 7px 19px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.6px;
+  border-radius: 8px;
+}
+
+.header {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+  }
+
+  &__menu_list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__menu_list_item {
+    @extend %headerBtn;
+  }
+
+  &__menu_list_item_primary {
+    background-color: vars.$primary;
+  }
+
+  &__menu_list_item_secondary {
+    background-color: vars.$gray;
+  }
+
+  &__menu_list_item_tertiary {
+    background-color: vars.$gray;
+  }
+
+  &__login {
+    display: flex;
+    gap: 10px;
+  }
+
+  &__login_sign_in {
+    color: #fff;
+    background-color: inherit;
+    border: 2px solid vars.$dark_gray;
+    text-transform: uppercase;
+
+    @extend %headerBtn;
+  }
+
+  &__login_sign_up {
+    color: black;
+    background-color: #fff;
+    text-transform: uppercase;
+
+    @extend %headerBtn;
+  }
+}
