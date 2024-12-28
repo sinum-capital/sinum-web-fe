@@ -1,5 +1,3 @@
-@use "../../assets/styles/vars" as vars;
-
 %headerBtn {
   padding: 7px 19px;
   font-weight: 600;
@@ -26,15 +24,15 @@
   }
 
   &__menu_list_item_primary {
-    background-color: vars.$primary;
+    background-color: var(--primary);
   }
 
   &__menu_list_item_secondary {
-    background-color: vars.$gray;
+    background-color: var(--gray);
   }
 
   &__menu_list_item_tertiary {
-    background-color: vars.$gray;
+    background-color: var(--gray);
   }
 
   &__login {
@@ -45,7 +43,7 @@
   &__login_sign_in {
     color: #fff;
     background-color: inherit;
-    border: 2px solid vars.$dark_gray;
+    border: 2px solid var(--dark-gray);
     text-transform: uppercase;
 
     @extend %headerBtn;
@@ -54,7 +52,6 @@
   &__login_sign_up {
     color: black;
     background-color: #fff;
-    text-transform: uppercase;
 
     @extend %headerBtn;
   }

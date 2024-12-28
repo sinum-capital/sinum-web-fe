@@ -3,6 +3,16 @@ body {
   height: 100%;
 }
 
+:root {
+  --primary: #5000ff;
+  --gray: #2c2a31;
+  --dark-gray: #868686;
+}
+
+// $primary: #5000ff;
+// $gray: #2c2a31;
+// $dark_gray: #868686;
+
 body {
   font-weight: 400;
   font-size: 16px;
@@ -26,8 +36,6 @@ body {
   flex: 0 0 auto;
 }
 
-// 1140
-
 .container {
   max-width: 1170px;
   margin: 0 auto;
@@ -35,7 +43,7 @@ body {
 }
 
 .container-fluid {
-  max-width: 1920px;
+  max-width: 1222px;
   margin: 0 auto;
   padding: 0 10px;
 }
