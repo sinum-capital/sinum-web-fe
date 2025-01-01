@@ -1,0 +1,54 @@
+%title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+
+.finance {
+  margin-top: 200px;
+
+  &_title {
+    @extend %title;
+    text-align: center;
+    margin-bottom: 43px;
+
+    span {
+      color: var(--primary);
+    }
+  }
+
+  &_content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  &_content_cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &_copyright {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--paragraph-text);
+  }
+
+  &_btn {
+    font-weight: 700;
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+
+    background-color: white;
+    padding: 15px 160px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  &_img {
+    height: 100%;
+    width: 100%;
+  }
+}

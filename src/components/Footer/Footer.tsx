@@ -17,7 +17,9 @@ const Footer = () => {
           <Link href="#">
             <Image src={Icons.twitterLogo} alt="telegramlogo" />
           </Link>
-          <span>Terms of Service</span>
+          <Link href="#">
+            <span>Terms of Service</span>
+          </Link>
         </div>
       </div>
     </footer>

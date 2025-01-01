@@ -27,6 +27,12 @@
     font-size: 32px;
     line-height: 39px;
     margin-bottom: 25px;
+
+    &::after {
+      content: "/month";
+      font-size: 22px;
+      color: #fff;
+    }
   }
 
   &__features {
@@ -51,6 +57,8 @@
   }
 
   &__btn {
+    white-space: nowrap;
+    cursor: pointer;
     color: #fff;
     padding: 16px 90px;
     font-weight: 600;
@@ -63,6 +71,6 @@
 
 .featured {
   border: 1px solid var(--primary);
-  height: 565px !important;
+  // після 1140 px треба вже адаптив
   box-shadow: 0px 0px 20px 10px rgba(231, 218, 218, 0.2);
 }

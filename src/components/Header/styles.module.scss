@@ -53,7 +53,7 @@
   &__login_sign_up {
     color: black;
     background-color: #fff;
-
+    text-transform: uppercase;
     @extend %headerBtn;
   }
 }

@@ -29,39 +29,39 @@ const Pricing = () => {
           <PricingCard
             title="FREE"
             text="FREE version offers some basic features for core functionality experience"
-            price="$0 /month"
+            price="$0"
             features={[
-              "All Basic Features",
-              "Advanced Analytics",
-              "Priority Support",
-              "Unlimited Integrations",
+              "Ad-Supported",
+              "Basic Analytics",
+              "Basic Tutorials",
+              "Comunity Support",
             ]}
             buttonText="Start with FREE"
           />
           <PricingCard
             isFeatured
-            title="FREE"
-            text="FREE version offers some basic features for core functionality experience"
-            price="$0 /month"
+            title="BASIC"
+            text="Basic version provides some additional features that enhance the experience"
+            price="$10"
             features={[
-              "All Basic Features",
-              "Advanced Analytics",
-              "Priority Support",
-              "Unlimited Integrations",
+              "Add-Free Experience",
+              "Enhanced Core Features",
+              "Customizable Settings",
+              "Increased Storage Limits",
             ]}
-            buttonText="Start with FREE"
+            buttonText="Start with BASIC"
           />
           <PricingCard
-            title="FREE"
-            text="FREE version offers some basic features for core functionality experience"
-            price="$0 /month"
+            title="PRO"
+            text="Version that gives you all the features for maximum efficiency"
+            price="$30"
             features={[
               "All Basic Features",
               "Advanced Analytics",
               "Priority Support",
               "Unlimited Integrations",
             ]}
-            buttonText="Start with FREE"
+            buttonText="Start with PRO"
           />
         </div>
       </div>
