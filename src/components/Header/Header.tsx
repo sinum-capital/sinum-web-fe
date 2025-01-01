@@ -1,15 +1,15 @@
 import Image from "next/image";
 import styles from "./styles.module.scss";
+import Link from "next/link";
 import { Icons } from "@/assets";
 
-import Link from "next/link";
 const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.header__inner}>
-        <a className="logo" href="#">
+        <Link className="logo" href="#">
           <Image src={Icons.sinumlogo} alt="sinumLogo" />
-        </a>
+        </Link>
         <nav className={styles.header__menu}>
           <ul className={styles.header__menu_list}>
             <li

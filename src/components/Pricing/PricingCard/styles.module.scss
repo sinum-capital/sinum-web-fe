@@ -1,0 +1,68 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #242323;
+  background-color: #0f0f0f;
+  padding: 24px;
+  max-height: 515px;
+  max-width: 350px;
+  border-radius: 16px;
+
+  &_title {
+    font-weight: 600;
+    color: var(--blue);
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  &_text {
+    font-weight: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  &_price {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 25px;
+  }
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  &__features_item {
+    position: relative;
+    margin-left: 30px;
+    &::before {
+      position: absolute;
+      content: "";
+      top: 4px;
+      left: -30px;
+      width: 19px;
+      height: 14px;
+      background: url("../../../assets/icons/pricingCheckbox.svg");
+    }
+  }
+
+  &__btn {
+    color: #fff;
+    padding: 16px 90px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: var(--primary);
+  }
+}
+
+.featured {
+  border: 1px solid var(--primary);
+  height: 565px !important;
+  box-shadow: 0px 0px 20px 10px rgba(231, 218, 218, 0.2);
+}
