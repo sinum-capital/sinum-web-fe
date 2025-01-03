@@ -1,5 +1,5 @@
 import Image from "next/image";
-import SmoothScrollButton from "../SmoothScrollButton/SmoothScrollButton";
+import SmoothScrollButton from "@/components/UI/SmoothScrollButton/SmoothScrollButton";
 import styles from "./styles.module.scss";
 import { Icons } from "@/assets";
 
@@ -22,8 +22,12 @@ const AboutUs = () => {
         analysis, the possibility of personal consultations with experts - these
         are all opportunities that offers Sinum Capital for its clients.
       </p>
-      <div className={styles.aboutUs_image}>
-        <Image src={Icons.aboutUsBanner} alt="About us Banner" />
+      <div className={styles.aboutUs_image_wrapper}>
+        <Image
+          className={styles.aboutUs_image}
+          src={Icons.aboutUsBanner}
+          alt="About us Banner"
+        />
       </div>
     </div>
   );

@@ -1,10 +1,29 @@
-.footer__content {
-  margin-top: 200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+// .footer__content {
+//   max-width: 1110px;
+//   margin: 0 auto;
+//   margin-top: 200px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
 
-  &_media {
+//   &_media {
+//     display: flex;
+//     gap: 22px;
+//   }
+// }
+
+.footer {
+  padding: 70px 15px 20px;
+  &__content {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__content_media {
     display: flex;
     gap: 22px;
   }

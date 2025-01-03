@@ -44,16 +44,6 @@
 
   &__features_item {
     position: relative;
-    margin-left: 30px;
-    &::before {
-      position: absolute;
-      content: "";
-      top: 4px;
-      left: -30px;
-      width: 19px;
-      height: 14px;
-      background: url("../../../assets/icons/pricingCheckbox.svg");
-    }
   }
 
   &__btn {
@@ -66,6 +56,14 @@
     line-height: 19px;
     border-radius: 8px;
     background-color: var(--primary);
+  }
+
+  &__features_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
   }
 }
 

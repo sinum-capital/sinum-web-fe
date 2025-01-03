@@ -45,9 +45,14 @@
     margin-bottom: 40px;
   }
 
-  &_image {
+  &_image_wrapper {
     display: flex;
     justify-content: center;
     margin-bottom: 140px;
+    overflow: hidden;
+  }
+
+  &_image {
+    max-width: max-content;
   }
 }

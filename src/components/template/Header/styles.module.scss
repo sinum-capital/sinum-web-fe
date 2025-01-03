@@ -57,3 +57,9 @@
     @extend %headerBtn;
   }
 }
+
+@media (max-width: 625px) {
+  .header__menu_list {
+    display: none;
+  }
+}

@@ -6,6 +6,7 @@
 
 .finance {
   margin-top: 200px;
+  background: linear-gradient(#000000 17%, #181818 50%, #010101 89%);
 
   &_title {
     @extend %title;
@@ -19,8 +20,9 @@
 
   &_content {
     display: flex;
-    justify-content: space-between;
-    gap: 40px;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
   }
 
   &_content_cards {
@@ -42,9 +44,10 @@
     line-height: 22px;
 
     background-color: white;
-    padding: 15px 160px;
-    border-radius: 16px;
+    padding: 15px;
+    border-radius: 50px;
     cursor: pointer;
+    width: 100%;
   }
 
   &_img {

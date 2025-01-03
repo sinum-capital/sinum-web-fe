@@ -1,7 +1,6 @@
-import SmoothScrollButton from "../SmoothScrollButton/SmoothScrollButton";
 import PricingCard from "./PricingCard/PricingCard";
 import styles from "./styles.module.scss";
-
+import SmoothScrollButton from "@/components/UI/SmoothScrollButton/SmoothScrollButton";
 const Pricing = () => {
   return (
     <div id="pricing" className={styles.pricing}>

@@ -1,26 +1,14 @@
-import Footer from "@/components/Footer/Footer";
-import Header from "../../components/Header/Header";
-import AboutUs from "@/components/AboutUs/AboutUs";
-import Pricing from "@/components/Pricing/Pricing";
-import Plans from "@/components/Plans/Plans";
-import Finance from "@/components/Finance/Finance";
+import AboutUs from "@/components/pages/landing/AboutUs/AboutUs";
+import Pricing from "@/components/pages/landing/Pricing/Pricing";
+import Plans from "@/components/pages/landing/Plans/Plans";
+import Finance from "@/components/pages/landing/Finance/Finance";
 export default function Home() {
   return (
     <>
-      <div className="container-fluid">
-        <Header />
-      </div>
-      <div className="container">
-        <div className="wrapper">
-          <main className="main">
-            <AboutUs />
-            <Pricing />
-            <Plans />
-            <Finance />
-          </main>
-          <Footer />
-        </div>
-      </div>
+      <AboutUs />
+      <Pricing />
+      <Plans />
+      <Finance />
     </>
   );
 }
