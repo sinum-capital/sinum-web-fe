@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #242323;
+  background-color: #0f0f0f;
+  padding: 24px;
+  max-height: 515px;
+  max-width: 350px;
+  border-radius: 16px;
+
+  &_title {
+    font-weight: 600;
+    color: var(--blue);
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+
+  &_text {
+    font-weight: 20px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  &_price {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 25px;
+
+    &::after {
+      content: "/month";
+      font-size: 22px;
+      color: #fff;
+    }
+  }
+
+  &__features {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 25px;
+  }
+
+  &__features_item {
+    position: relative;
+  }
+
+  &__btn {
+    white-space: nowrap;
+    cursor: pointer;
+    color: #fff;
+    padding: 16px 90px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    background-color: var(--primary);
+  }
+
+  &__features_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.featured {
+  border: 1px solid var(--primary);
+  // після 1140 px треба вже адаптив
+  box-shadow: 0px 0px 20px 10px rgba(231, 218, 218, 0.2);
+}

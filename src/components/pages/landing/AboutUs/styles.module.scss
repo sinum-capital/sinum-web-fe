@@ -1,0 +1,58 @@
+%title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+// ці стилі треба винести в якийсь 1 файл і може через @use імпортувати,бо писати їх в кожен scss так собі:(
+
+%text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--paragraph-text);
+}
+
+%scrollButton {
+  color: #fff;
+  color: var(--scroll-button);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #131010;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  &_btn {
+    @extend %scrollButton;
+    margin-bottom: 25px;
+  }
+
+  &_title {
+    @extend %title;
+    margin-bottom: 40px;
+  }
+
+  &_text {
+    @extend %text;
+    margin-bottom: 40px;
+  }
+
+  &_image_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 140px;
+    overflow: hidden;
+  }
+
+  &_image {
+    max-width: max-content;
+  }
+}

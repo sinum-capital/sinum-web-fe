@@ -1,0 +1,60 @@
+%title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+}
+// ці стилі треба винести в якийсь 1 файл і може через @use імпортувати,бо писати їх в кожен scss так собі:(
+
+%text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--paragraph-text);
+}
+
+%scrollButton {
+  color: var(--scroll-button);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  background-color: #131010;
+  padding: 12px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.pricing {
+  &_wrapper {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: column;
+    background: radial-gradient(circle, #151515 0%, #000000 73%);
+  }
+
+  &__description {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  &__description_btn {
+    @extend %scrollButton;
+    margin-bottom: 25px;
+  }
+
+  &__description_title {
+    @extend %title;
+    margin-bottom: 40px;
+  }
+
+  &__description_text {
+    @extend %text;
+  }
+
+  &_cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+}
