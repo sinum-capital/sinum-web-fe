@@ -12,11 +12,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       <div className="container-fluid">
         <Header />
       </div>
-      <div className="container">
-        <div className="wrapper">
           <main className="main">{children}</main>
-        </div>
-      </div>
       <Footer />
     </>
   );

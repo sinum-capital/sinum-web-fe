@@ -1,0 +1,445 @@
+.hero {
+  padding: 100px 0;
+  background: radial-gradient(
+                  ellipse,
+                  #000000 0%,
+                  #171717 0%,
+                  #010101 100%
+  );
+
+
+  &_wrapper {
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+  }
+
+  &_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &_content {
+    margin-bottom: 150px;
+    display: flex;
+    gap: 3vw;
+  }
+
+  &_title {
+    line-height: 1.4;
+    font-size: 50px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 30px;
+
+    & span {
+      color: #9063CD;
+      font-weight: 900;
+    }
+  }
+
+  &_link {
+    padding: 19px 72.5px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.4;
+    letter-spacing: 0;
+    border-radius: 50px;
+    background: #6343E8;
+  }
+
+
+  &_candle_wrapper_1 {
+    margin: 237px 0 10px;
+  }
+
+  &_candle_1 {
+    margin: 30px 0 75px;
+    position: relative;
+    width: 40px;
+    height: 65.5px;
+    background: #FFFFFF;
+    color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+    z-index: 1;
+
+    &::before {
+      background: #FFFFFF;
+      content: '';
+      position: absolute;
+      top: -30px;
+      width: 1px;
+      height: 171px;
+      right: 50%;
+      left: 50%;
+      z-index: -1;
+    }
+  }
+
+
+  &_candle_wrapper_2 {
+    margin: 141px 0 106px;
+  }
+
+  &_candle_2 {
+    position: relative;
+    margin: 30px 0 75px;
+    width: 40px;
+    height: 65.5px;
+    background: #5F5F5F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+    z-index: 1;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: -30px;
+      width: 1px;
+      height: 171px;
+      right: 50%;
+      left: 50%;
+      background: #5F5F5F;
+      z-index: -1;
+    }
+  }
+
+  &_candle_wrapper_3 {
+    margin: 43px 0 204px;
+    position: relative;
+  }
+
+  &_candle_3 {
+    position: relative;
+    z-index: 10;
+    margin: 30px 0 20px;
+    width: 40px;
+    height: 121.2px;
+    background: #FFFFFF;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      color: #FFFFFF;
+      border: 1px solid #999999;
+      background: linear-gradient(
+                      to bottom,
+                      #202020 0%,
+                      #282828 100%
+      );
+      box-shadow: 0 0 60px 0 #35383F;
+    }
+
+
+  }
+
+  &_candle_3_line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 171px;
+    right: 50%;
+    left: 50%;
+    z-index: 1;
+    background: #FFFFFF;
+  }
+
+  &_candle_wrapper_4 {
+    margin: 0 0 247px;
+    position: relative;
+  }
+
+  &_candle_4 {
+    position: relative;
+    z-index: 2;
+    margin: 30px 0 75px;
+    width: 40px;
+    height: 65.5px;
+    background: #5F5F5F;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      color: #FFFFFF;
+      border: 1px solid #999999;
+      background: linear-gradient(
+                      to bottom,
+                      #202020 0%,
+                      #393939 100%
+      );
+      box-shadow: 0 0 60px 0 #35383F;
+    }
+
+  }
+
+  &_candle_4_line {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 1px;
+    height: 171px;
+    right: 50%;
+    left: 50%;
+    background: #5F5F5F;
+  }
+
+
+  &_candle_wrapper_5 {
+    margin: 74px 0 172px;
+    position: relative;
+  }
+
+  &_candle_5 {
+    z-index: 5;
+    position: relative;
+    margin: 10px 0 75px;
+    width: 40px;
+    height: 85.8px;
+    background: #FFFFFF;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      color: #1D1D1D;
+      border: 1px solid #4C4848;
+      background: linear-gradient(
+                      to bottom,
+                      #FFFFFF 0%,
+                      #999999 100%
+      );
+      box-shadow: 0 0 60px 0 #35383F;
+    }
+  }
+
+  &_candle_5_line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 171px;
+    right: 50%;
+    left: 50%;
+    z-index: 1;
+    background: #FFFFFF;
+  }
+
+
+  &_candle_wrapper_6 {
+    margin: 128px 0 118px;
+    position: relative;
+  }
+
+  &_candle_6 {
+    position: relative;
+    margin: 30px 0 75px;
+    width: 40px;
+    z-index: 1;
+    height: 65.5px;
+    background: #FFFFFF;
+    color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      color: #FFFFFF;
+      border: 1px solid #999999;
+      background: linear-gradient(
+                      to bottom,
+                      #202020 0%,
+                      #393939 100%
+      );
+      box-shadow: 0 0 60px 0 #35383F;
+    }
+
+  }
+
+  &_candle_6_line {
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 171px;
+    right: 50%;
+    left: 50%;
+    background: #FFFFFF;
+  }
+
+
+  &_candle_wrapper_7 {
+    margin: 45px 0 100px;
+    position: relative;
+  }
+
+  &_candle_7 {
+    background: #888888;
+    z-index: 100;
+    margin: 30px 0 121px;
+    width: 40px;
+    height: 121.2px;
+    color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+    transition: all 0.7s ease-in-out;
+
+    &:hover {
+      z-index: 100;
+      color: #FFFFFF;
+      outline: 1px solid #999999;
+      background: linear-gradient(
+                      to bottom,
+                      #202020 0%,
+                      #393939 100%
+      );
+      box-shadow: 0 0 60px 0 #35383F;
+    }
+
+
+  }
+
+  &_candle_7_line {
+    top: 0;
+    z-index: 1;
+    position: absolute;
+    width: 1px;
+    height: 272px;
+    right: 50%;
+    left: 50%;
+    background: #8B8B8B;
+  }
+
+
+  &_candle_wrapper_8 {
+    margin: 227px 0 20px;
+  }
+
+  &_candle_8 {
+    position: relative;
+    z-index: 1;
+    margin: 30px 0 131px;
+    width: 40px;
+    height: 10px;
+    background: #FFFFFF;
+    display: flex;
+    color: #1D1D1D;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+    &::before {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      top: -30px;
+      width: 1px;
+      height: 171px;
+      right: 50%;
+      left: 50%;
+      background: #FFFFFF;
+    }
+  }
+
+
+  &_candle_wrapper_9 {
+    margin: 247px 0 0;
+  }
+
+  &_candle_9 {
+    position: relative;
+    margin: 30px 0 75px;
+    z-index: 1;
+    width: 40px;
+    height: 65.5px;
+    background: #FFFFFF;
+    color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 35px;
+    letter-spacing: 0;
+    font-weight: 500;
+
+    &::before {
+      content: '';
+      z-index: -1;
+      position: absolute;
+      top: -30px;
+      width: 1px;
+      height: 171px;
+      right: 50%;
+      left: 50%;
+      background: #FFFFFF;
+    }
+  }
+}
+
+
+@media (max-width: 625px) {
+  .hero {
+    &_candle_wrapper_1 {
+      display: none;
+    }
+
+    &_candle_wrapper_8 {
+      display: none;
+    }
+    &_candle_wrapper_9 {
+      display: none;
+    }
+  }
+}
