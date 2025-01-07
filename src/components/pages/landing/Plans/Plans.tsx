@@ -2,7 +2,7 @@ import styles from "./styles.module.scss";
 import SmoothScrollButton from "@/components/UI/SmoothScrollButton/SmoothScrollButton";
 const Plans = () => {
   return (
-    <div id="plans" className={styles.plans}>
+    <section id="plans" className={styles.plans}>
       <div className={styles.plans_wrapper}>
         <div className={styles.plans__btn}>
           <SmoothScrollButton
@@ -72,7 +72,7 @@ const Plans = () => {
           </table>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
