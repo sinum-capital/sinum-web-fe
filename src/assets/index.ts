@@ -12,19 +12,20 @@ import clock from "./icons/clock.png";
 import coffee from "./icons/coffee.png";
 import activity from "./icons/activity.png";
 import aperture from "./icons/aperture.png";
+
 export const Icons = {
-  sinumlogo,
-  telegramLogo,
-  twitterLogo,
-  aboutUsBanner,
-  pricingCheckbox,
-  financeImage,
-  filledStar,
-  emptyStar,
-  abrakadabra,
-  dollar,
-  coffee,
-  clock,
-  activity,
-  aperture,
+    sinumlogo,
+    telegramLogo,
+    twitterLogo,
+    aboutUsBanner,
+    pricingCheckbox,
+    financeImage,
+    filledStar,
+    emptyStar,
+    abrakadabra,
+    dollar,
+    coffee,
+    clock,
+    activity,
+    aperture,
 };

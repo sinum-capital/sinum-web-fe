@@ -3,17 +3,18 @@ import Pricing from "@/components/pages/landing/Pricing/Pricing";
 import Plans from "@/components/pages/landing/Plans/Plans";
 import Finance from "@/components/pages/landing/Finance/Finance";
 import Hero from "@/components/pages/landing/Hero/Hero";
+
 export default function Home() {
-  return (
-    <>
-      <Hero></Hero>
-      {/* тут був контейнер */}
-      <div className="wrapper">
-        <AboutUs />
-        <Pricing />
-        <Plans />
-        <Finance />
-      </div>
-    </>
-  );
+    return (
+        <>
+            <Hero></Hero>
+            {/* тут був контейнер */}
+            <div className="wrapper">
+                <AboutUs/>
+                <Pricing/>
+                <Plans/>
+                <Finance/>
+            </div>
+        </>
+    );
 }
