@@ -1,0 +1,30 @@
+.infotable {
+  display: inline-block;
+
+  padding: 40px 30px;
+  background-color: rgba(1, 1, 1, 1);
+  border: 1px solid rgba(43, 42, 42, 1);
+  border-radius: 8px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+
+    margin-top: 20px;
+  }
+
+  &__text {
+    font-weight: 200;
+    font-size: 13px;
+    line-height: 22px;
+
+    margin-top: 13px;
+  }
+}

@@ -19,22 +19,6 @@
     gap: 20px;
   }
 
-  &__menu_list_item {
-    @extend %headerBtn;
-  }
-
-  &__menu_list_item_primary {
-    background-color: var(--primary);
-  }
-
-  &__menu_list_item_secondary {
-    background-color: var(--gray);
-  }
-
-  &__menu_list_item_tertiary {
-    background-color: var(--gray);
-  }
-
   &__login {
     display: flex;
     gap: 10px;

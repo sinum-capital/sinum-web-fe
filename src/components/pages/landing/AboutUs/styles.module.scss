@@ -30,6 +30,12 @@
   justify-content: center;
   text-align: center;
 
+  &__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
   &_btn {
     @extend %scrollButton;
     margin-bottom: 25px;

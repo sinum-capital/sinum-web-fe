@@ -6,16 +6,14 @@ import Hero from "@/components/pages/landing/Hero/Hero";
 export default function Home() {
   return (
     <>
-        <Hero></Hero>
-
-        <div className="container">
-            <div className="wrapper">
-      <AboutUs />
-      <Pricing />
-      <Plans />
-      <Finance />
-                </div>
-        </div>
+      <Hero></Hero>
+      {/* тут був контейнер */}
+      <div className="wrapper">
+        <AboutUs />
+        <Pricing />
+        <Plans />
+        <Finance />
+      </div>
     </>
   );
 }

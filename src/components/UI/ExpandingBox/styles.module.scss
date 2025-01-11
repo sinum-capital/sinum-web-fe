@@ -1,0 +1,44 @@
+.box {
+  background-color: #101010;
+  padding: 40px 70px;
+  border-radius: 10px;
+  transition: 0.6s;
+
+  &_active {
+    background-color: var(--primary);
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  &__img {
+    transition: 0.5s;
+  }
+
+  &__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: ease 0.3s;
+  }
+
+  &__answer_active {
+    max-height: 500px;
+  }
+
+  &__answer_text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+
+    margin-top: 50px;
+  }
+}

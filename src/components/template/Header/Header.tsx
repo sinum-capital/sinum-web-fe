@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 import Link from "next/link";
 import { Icons } from "@/assets";
+import NavigationTab from "@/components/UI/NavigationTab/NavigationTab";
 
 const Header = () => {
   return (
@@ -12,21 +13,9 @@ const Header = () => {
         </Link>
         <nav className={styles.header__menu}>
           <ul className={styles.header__menu_list}>
-            <li
-              className={`${styles.header__menu_list_item} ${styles.header__menu_list_item_primary}`}
-            >
-              <Link href="#">Dashboard</Link>
-            </li>
-            <li
-              className={`${styles.header__menu_list_item} ${styles.header__menu_list_item_secondary}`}
-            >
-              Features
-            </li>
-            <li
-              className={`${styles.header__menu_list_item} ${styles.header__menu_list_item_tertiary}`}
-            >
-              FAQ
-            </li>
+            <NavigationTab href="/">Dashboard</NavigationTab>
+            <NavigationTab href="/Features">Features</NavigationTab>
+            <NavigationTab href="/FAQ">FAQ</NavigationTab>
           </ul>
         </nav>
         <nav className={styles.header__login}>
