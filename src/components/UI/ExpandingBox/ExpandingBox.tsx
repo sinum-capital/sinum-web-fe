@@ -41,11 +41,14 @@ const ExpandingBox: FC<ExpandingBoxProps> = ({
           />
         </svg>
       </div>
-      {isOpen && (
-        <div className={styles.box__answer}>
-          <p className={styles.box__answer_text}>{answer}</p>
-        </div>
-      )}
+
+      <div
+        className={`${styles.box__answer} ${
+          isOpen ? styles.box__answer_active : ""
+        }`}
+      >
+        <p className={styles.box__answer_text}>{answer}</p>
+      </div>
     </div>
   );
 };

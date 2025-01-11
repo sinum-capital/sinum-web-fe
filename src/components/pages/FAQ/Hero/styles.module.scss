@@ -58,7 +58,19 @@
   }
 
   &__questions {
+    position: relative;
     margin-top: 166px;
+
+    &::before {
+      content: "";
+      top: 25px;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background: radial-gradient(circle, #6d6b6b 0%, #000000 60%);
+      z-index: -1;
+    }
   }
 
   &__questions_items {

@@ -1,0 +1,17 @@
+.review {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgba(18, 18, 18, 1);
+  border: 1px solid rgba(31, 31, 31, 1);
+  max-width: 440px;
+  border-radius: 14px;
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(212, 212, 212, 1);
+    max-width: 388px;
+    margin-bottom: 32px;
+  }
+}

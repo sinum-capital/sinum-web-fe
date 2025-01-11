@@ -14,7 +14,7 @@ const Header = () => {
         <nav className={styles.header__menu}>
           <ul className={styles.header__menu_list}>
             <NavigationTab href="/">Dashboard</NavigationTab>
-            <NavigationTab href="/features">Features</NavigationTab>
+            <NavigationTab href="/Features">Features</NavigationTab>
             <NavigationTab href="/FAQ">FAQ</NavigationTab>
           </ul>
         </nav>

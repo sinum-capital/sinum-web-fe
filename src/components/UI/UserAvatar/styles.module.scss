@@ -1,0 +1,31 @@
+.avatar {
+  &__wrapper {
+    display: flex;
+    gap: 30px;
+  }
+
+  &__image_wrapper {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__initials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+}

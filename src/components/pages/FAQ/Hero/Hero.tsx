@@ -4,6 +4,7 @@ import SmoothScrollButton from "@/components/UI/SmoothScrollButton/SmoothScrollB
 import styles from "./styles.module.scss";
 import ExpandingBox from "@/components/UI/ExpandingBox/ExpandingBox";
 import { useState } from "react";
+
 const Hero = () => {
   const [openBox, setOpenBox] = useState<number | null>(null);
 
@@ -143,7 +144,7 @@ const Hero = () => {
         {/* QUESTIONS */}
 
         {/* GENERAL */}
-        <div className={styles.general__questions}>
+        <div id="General" className={styles.general__questions}>
           <h3 className={styles.general__questions_title}>
             {QUESTIONS_DATA[0].title}
           </h3>
@@ -162,7 +163,7 @@ const Hero = () => {
         </div>
 
         {/* PORTFOLIO AND DASHBOARD */}
-        <div className={styles.general__questions}>
+        <div id="PortFolio and Dashboard" className={styles.general__questions}>
           <h3 className={styles.general__questions_title}>
             {QUESTIONS_DATA[1].title}
           </h3>
@@ -181,7 +182,7 @@ const Hero = () => {
         </div>
 
         {/* FEATURES */}
-        <div className={styles.general__questions}>
+        <div id="Features" className={styles.general__questions}>
           <h3 className={styles.general__questions_title}>
             {QUESTIONS_DATA[2].title}
           </h3>

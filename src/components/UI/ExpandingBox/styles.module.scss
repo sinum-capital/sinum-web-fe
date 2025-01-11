@@ -24,6 +24,16 @@
     transition: 0.5s;
   }
 
+  &__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: ease 0.3s;
+  }
+
+  &__answer_active {
+    max-height: 500px;
+  }
+
   &__answer_text {
     font-weight: 500;
     font-size: 18px;
