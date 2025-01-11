@@ -1,8 +1,11 @@
 .innovation {
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0 15px;
-  margin-top: 215px;
+  background: linear-gradient(#000000 17%, #181818 50%, #010101 89%);
+
+  &__wrapper {
+    padding: 0 15px 200px;
+    max-width: 1170px;
+    margin: 215px auto 0;
+  }
 
   &__title {
     font-weight: 700;
@@ -37,5 +40,18 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .innovation {
+    &__tables_first {
+      flex-direction: column;
+    }
+
+    &__tables_second {
+      flex-direction: column;
+    }
   }
 }

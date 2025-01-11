@@ -15,36 +15,36 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className={styles.hero_candle_wrapper_2}>
-                    <div className={styles.hero_candle_2}>
+                        <div className={styles.hero_candle_2}>
                             <span className={styles.hero_candle_text}></span>
                         </div>
                     </div>
                     <div className={styles.hero_candle_wrapper_3}>
-                    <div className={styles.hero_candle_3}>
+                        <div className={styles.hero_candle_3}>
                             <span className={styles.hero_candle_text}>S</span>
                         </div>
                         <div className={styles.hero_candle_3_line}></div>
                     </div>
                     <div className={styles.hero_candle_wrapper_4}>
-                    <div className={styles.hero_candle_4}>
+                        <div className={styles.hero_candle_4}>
                             <span className={styles.hero_candle_text}>I</span>
                         </div>
                         <div className={styles.hero_candle_4_line}></div>
                     </div>
                     <div className={styles.hero_candle_wrapper_5}>
-                    <div className={styles.hero_candle_5}>
+                        <div className={styles.hero_candle_5}>
                             <span className={styles.hero_candle_text}>N</span>
                         </div>
                         <div className={styles.hero_candle_5_line}></div>
                     </div>
                     <div className={styles.hero_candle_wrapper_6}>
-                    <div className={styles.hero_candle_6}>
+                        <div className={styles.hero_candle_6}>
                             <span className={styles.hero_candle_text}>U</span>
                         </div>
                         <div className={styles.hero_candle_6_line}></div>
                     </div>
                     <div className={styles.hero_candle_wrapper_7}>
-                    <div className={styles.hero_candle_7}>
+                        <div className={styles.hero_candle_7}>
                             <span className={styles.hero_candle_text}>M</span>
                         </div>
                         <div className={styles.hero_candle_7_line}></div>
